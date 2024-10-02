@@ -1,0 +1,50 @@
+:root{
+    --rojo: #C9181B;
+    --blanco: #FFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.menu{
+    border: 1px red solid;
+    display: flex;
+}
+
+.menu-nav{
+    border: 1px green solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--rojo);
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.menu-nav ul{
+    border: 1px blue solid;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.menu-nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.menu-nav ul li a{
+    text-decoration: none;
+    color: var(--blanco);
+}
