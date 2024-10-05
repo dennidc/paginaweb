@@ -1,6 +1,8 @@
 :root{
-    --rojo: #C9181B;
+    --rojo-bajo: #C9181B;
     --blanco: #FFFF;
+    --negro: #333;
+    --rojo:red;
 }
 * {
     margin: 0;
@@ -23,7 +25,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: var(--rojo);
+    background-color: var(--rojo-bajo);
     justify-content: space-between;
     width: 100%;
     padding: 0px 20px;
@@ -44,4 +46,23 @@ body {
 .menu-nav ul li a{
     text-decoration: none;
     color: var(--blanco);
+}
+
+.franja{
+    background-color: var(--negro);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.franja h2{
+    color: var(--blanco);
+    margin-bottom: 10px;
+}
+
+.franja-roja {
+    width:9%;
+    height: 5px;
+    background-color: var(--rojo);
 }
