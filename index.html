@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2ebd543e82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/movil.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Frontend Designer - Denni Cen</title>
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="CSS/imagenes/logoD.svg" alt="Logo">
+                <i id="icomenu" class="fa-solid fa-bars"></i>
+            </div>
+
+
+        <nav id="cajamenu" class="menu-nav">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">PÁGINAS WEB</a></li>
+                <li><a href="#">SOBRE MÍ</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="franja">
+        <h2 id="franja__titulo">Proyectos</h2>
+    </section>
+
+    <section class="proyectos">
+        <div class="proyecto">
+            <img src="CSS/imagenes/proyecto1.jpg" alt="Proyecto 1">
+            <h3>Proyecto 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id velit at neque semper pulvinar.</p>
+        </div>
+
+    </section>
+
+
+
+     <script>
+            $("#icomenu").click(function(){
+                $(".menu-nav").slideToggle();
+            });
+
+    </script>
+</body>
+</html>

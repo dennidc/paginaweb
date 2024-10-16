@@ -1,0 +1,27 @@
+@media screen and (max-width: 360px) {
+    #icomenu{
+        display: block;
+    }
+
+    .menu-nav{
+        display: none;
+
+    }
+    .menu-nav ul{
+        flex-direction: column;
+
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .logo img{
+        width: 120px;
+        height: auto;
+    }
+}
